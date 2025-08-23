@@ -25,6 +25,7 @@ function App() {
           <Route path='/signup' element={<SignUp />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/interviewprep/:sessionId' element={<InterviewPrep />} />
+          
 
         </Routes>
       </Router>
